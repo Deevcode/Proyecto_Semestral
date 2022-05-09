@@ -9,7 +9,8 @@
 </head>
 <body>
     <div class="payment-title">
-        <h1>Payment Information</h1>
+        <h1>Suscribete a la funcacion</h1>
+        <h3>con tu aporte ayudas nuestra mision</h3>
     </div>
     <div class="container preload">
         <div class="creditcard">
@@ -28,10 +29,10 @@
                             <path class="darkcolor greydark" d="M750,431V193.2c-217.6-57.5-556.4-13.5-750,24.9V431c0,22.1,17.9,40,40,40h670C732.1,471,750,453.1,750,431z" />
                         </g>
                         <text transform="matrix(1 0 0 1 60.106 295.0121)" id="svgnumber" class="st2 st3 st4">0123 4567 8910 1112</text>
-                        <text transform="matrix(1 0 0 1 54.1064 428.1723)" id="svgname" class="st2 st5 st6">JOHN DOE</text>
-                        <text transform="matrix(1 0 0 1 54.1074 389.8793)" class="st7 st5 st8">cardholder name</text>
-                        <text transform="matrix(1 0 0 1 479.7754 388.8793)" class="st7 st5 st8">expiration</text>
-                        <text transform="matrix(1 0 0 1 65.1054 241.5)" class="st7 st5 st8">card number</text>
+                        <text transform="matrix(1 0 0 1 54.1064 428.1723)" id="svgname" class="st2 st5 st6">MOISES RUBIO</text>
+                        <text transform="matrix(1 0 0 1 54.1074 389.8793)" class="st7 st5 st8">Nombre del titular</text>
+                        <text transform="matrix(1 0 0 1 479.7754 388.8793)" class="st7 st5 st8">Expira</text>
+                        <text transform="matrix(1 0 0 1 65.1054 241.5)" class="st7 st5 st8">Numero tarjeta</text>
                         <g>
                             <text transform="matrix(1 0 0 1 574.4219 433.8095)" id="svgexpire" class="st2 st5 st9">01/23</text>
                             <text transform="matrix(1 0 0 1 479.3848 417.0097)" class="st2 st10 st11">VALID</text>
@@ -103,7 +104,7 @@
                         </g>
                         <rect x="58.1" y="378.6" class="st11" width="375.5" height="13.5" />
                         <rect x="58.1" y="405.6" class="st11" width="421.7" height="13.5" />
-                        <text transform="matrix(1 0 0 1 59.5073 228.6099)" id="svgnameback" class="st12 st13">John Doe</text>
+                        <text transform="matrix(1 0 0 1 59.5073 228.6099)" id="svgnameback" class="st12 st13">MOISES RUBIO</text>
                     </g>
                 </svg>
             </div>
@@ -111,36 +112,33 @@
     </div>
     <div class="form-container">
         <div class="field-container">
-            <label for="name">Name</label>
+            <label for="name">Nombre</label>
             <input id="name" maxlength="20" type="text">
         </div>
         <div class="field-container">
-            <label for="cardnumber">Card Number</label><span id="generatecard">generate random</span>
-            <input id="cardnumber" type="text" pattern="[0-9]*" inputmode="numeric">
-            <svg id="ccicon" class="ccicon" width="750" height="471" viewBox="0 0 750 471" version="1.1" xmlns="http://www.w3.org/2000/svg"
-                xmlns:xlink="http://www.w3.org/1999/xlink">
-
-            </svg>
-        </div>
-        <div class="field-container">
-            <label for="expirationdate">Expiration (mm/yy)</label>
+            <label for="expirationdate">Expira (mm/yy)</label>
             <input id="expirationdate" type="text" pattern="[0-9]*" inputmode="numeric">
         </div>
         <div class="field-container">
-            <label for="securitycode">Security Code</label>
+            <label for="securitycode">Codigo de seguridad</label>
             <input id="securitycode" type="text" pattern="[0-9]*" inputmode="numeric">
         </div>
     </div>
     <br>
-    <div>
-        <button><a href="index.html">Volver</a></button>
-    </div>
-    <br>
-    <div>
-        <button><a href="index.html">DONAR</a></button>
-    </div>
-   
+    <div id="container" >
+        <div>
+            <button><a href="index.html">Volver</a></button>
+        </div>
+        <br>
+        <div>
+            <button><a href="index.html">DONAR</a></button>
+        </div>
 
+    </div>
+    
+    <br>
+    <br>
+    <img class="webpay" src="images/logo_webpay.png" alt="">
     <script src="js/donacion.js"></script>
 
 </body>
